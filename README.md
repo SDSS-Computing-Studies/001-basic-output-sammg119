@@ -7,6 +7,8 @@ This assignment will test the basic structure of a python program.  You will nee
 2.  Create a new assignment file called "assignment2.py".  It should display the following:
 
 Sample Output
+```
 This is my second program.
 It uses two commands to display the output.
+```
 End
