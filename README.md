@@ -31,3 +31,5 @@ Sample Output Task #3
 ```
 Hello world! This is how multiple print statements are joined. Use a ,
 ```
+
+4. (4 points) You will receive the remaining 4 points in this assignment for successfully committing your files to Github and running your code through the "autochecker" to make sure you have met the assignment criteria.
