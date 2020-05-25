@@ -21,11 +21,11 @@ Hello World!
 Sample Output Task #2
 ```
 This is my second program.
-It uses two commands to display the output.
+It uses "two commands" to display the output.
 ```
 End
 
-3. (2 points) Modify the assignment file called "assignment3.py".  Add *,end=""* inside your print statements and modify the output string to force them to be printed on the same line.  Add an additional print statement so that the combined output is the following:
+3. (2 points) Modify the assignment file called "assignment3.py".  Add **,end=""** inside your print statements and modify the output string to force them to be printed on the same line.  Add an additional print statement so that the combined output is the following:
 
 Sample Output Task #3
 ```
