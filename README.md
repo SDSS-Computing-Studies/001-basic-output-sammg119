@@ -25,11 +25,11 @@ It uses two commands to display the output.
 ```
 End
 
-3. (2 points) Modify the assignment file called "assignment3.py".  Add a "," at the end of the first print statement and modify the output string to force them to be printed on the same line.  Add an additional print statement so that the combined output is the following:
+3. (2 points) Modify the assignment file called "assignment3.py".  Add *,end=""* inside your print statements and modify the output string to force them to be printed on the same line.  Add an additional print statement so that the combined output is the following:
 
 Sample Output Task #3
 ```
-Hello world! This is how multiple print statements are joined. Use a ,
+Hello world! This is how multiple print statements are joined. Use end=""
 ```
 
 4. (4 points) You will receive the remaining 4 points in this assignment for successfully committing your files to Github and running your code through the "autochecker" to make sure you have met the assignment criteria.
