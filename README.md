@@ -1,5 +1,5 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #1 Basic Output
+### Assignment #1 Basic Output (Total Marks 10)
 
 Objectives:
 * Create a repository and edit the files inside it
@@ -38,4 +38,4 @@ Sample Output Task #3
 Hello world! This is how multiple print statements are joined. Use end=""
 ```
 
-4. (4 points) You will receive the remaining 4 points in this assignment for successfully committing your files to Github and running your code through the "autochecker" to make sure you have met the assignment criteria.
+(4 points) You will receive the remaining 4 points in this assignment for successfully committing your files to Github and running your code through the "autochecker" to make sure you have met the assignment criteria.
