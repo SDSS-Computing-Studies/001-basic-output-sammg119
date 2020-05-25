@@ -24,8 +24,8 @@ This is my second program.
 It uses "two commands" to display the output.
 ```
 Note that you can't use the command print("It uses "two commands" to display the output.") because the Python3 interpreter sees the second double quotation is ending the first one.  In this case, we have two choices:
-  a. Use a single quotation mark as the beginning and end of the output string.
-  b. "Escape" the internal double quotation mark.  Using \" instead of " will tell the compiler that the double quote is for display, and is not functional
+  - Use a single quotation mark as the beginning and end of the output string.
+  - "Escape" the internal double quotation mark.  Using \" instead of " will tell the compiler that the double quote is for display, and is not functional
 
 3. (2 points) Modify the assignment file called "assignment3.py".  Add **,end=""** inside your print statements and modify the output string to force them to be printed on the same line.  Add an additional print statement so that the combined output is the following:
 
