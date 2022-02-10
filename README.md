@@ -14,11 +14,9 @@ You will need to have proper structure and the recommended basic output.
 ##### Task 1
 (2 points) Modify the existing assignment file called "assignment.py".  It should display the message "Hello World!" Note that the output is case sensitive. Make sure that it is an exact match
 
-Sample Output Task #1
-Hello World!
 
 ##### Task 2
-(2 points) Create a new assignment file called "assignment2.py".  It should display the following:
+(2 points) **Create** a new assignment file called "assignment2.py".  It should display the following:
 
 Sample Output Task #2
 This is my second program.
@@ -43,4 +41,9 @@ This is the second sentence.
 Expected output:
 Hello!
 
-(2 points) You will receive the remaining 2 points in this assignment for successfully committing your files to Github and running your code through the "autochecker" to make sure you have met the assignment criteria.
+#### Task 5
+(2 points)
+Create a file called "assignment5.py" in your project.  We are going to have your program display the clasic poem, "Ozymandias" by Percy Bysshe Shelly.
+Your program should display a title on one line, the author's name on the line below it and then a couple spaces before you display the poem.
+https://www.poetryfoundation.org/poems/46565/ozymandias
+
