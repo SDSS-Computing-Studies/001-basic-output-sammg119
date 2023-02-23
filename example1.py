@@ -38,3 +38,8 @@ content = '''This is a multi line string.
 It is predefined as a variable and then the variable is printed later.
 '''
 print(content)
+
+
+# Optional parameters can be included at the end of the print statement:
+print("This is a string literal",end="-+-")
+# end= is a commonly used print option that change the print statement from adding a line break to whatever you specify instead.

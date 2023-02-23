@@ -8,6 +8,7 @@ Objectives:
 
 This assignment will test the basic structure of a python program.  
 You will need to have proper structure and the recommended basic output.
+You can refer to the example1.py file for different ways that the print statement can be used.
 
 ### 3 Tasks
 
