@@ -2,7 +2,7 @@
 ### Assignment #1 Basic Output (Total Marks 10)
 
 Objectives:
-* Create a repository and edit the files inside it
+* Clone a repository and edit the files inside it
 * Make use of the print() function to generate output
 * Make use of escaped characters: \n \" \' to print line breaks or quotation marks
 
