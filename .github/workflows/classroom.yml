@@ -1,0 +1,76 @@
+name: Autograding Tests
+'on':
+- workflow_dispatch
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Hello World
+      id: hello-world
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Hello World
+        setup-command: ''
+        command: python3 assignment1.py
+        input: ''
+        expected-output: Hello World!
+        comparison-method: contains
+        timeout: 10
+        max-score: 2
+    - name: Create Assignment
+      id: create-assignment
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Create Assignment
+        setup-command: ''
+        command: python3 assignment2.py
+        input: ''
+        expected-output: |-
+          This is my second program.
+          It uses "two commands" to display the output.
+        comparison-method: contains
+        timeout: 10
+        max-score: 2
+    - name: Line Breakq
+      id: line-breakq
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: Line Breakq
+        setup-command: ''
+        command: python3 assignment3.py
+        input: ''
+        expected-output: |-
+          This is the first sentence.
+          This is the second sentence.
+        comparison-method: contains
+        timeout: 10
+        max-score: 2
+    - name: add comments
+      id: add-comments
+      uses: classroom-resources/autograding-io-grader@v1
+      with:
+        test-name: add comments
+        setup-command: ''
+        command: python3 assignment4.py
+        input: ''
+        expected-output: Hello!
+        comparison-method: contains
+        timeout: 10
+        max-score: 2
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        HELLO-WORLD_RESULTS: "${{steps.hello-world.outputs.result}}"
+        CREATE-ASSIGNMENT_RESULTS: "${{steps.create-assignment.outputs.result}}"
+        LINE-BREAKQ_RESULTS: "${{steps.line-breakq.outputs.result}}"
+        ADD-COMMENTS_RESULTS: "${{steps.add-comments.outputs.result}}"
+      with:
+        runners: hello-world,create-assignment,line-breakq,add-comments
